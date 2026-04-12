@@ -1,7 +1,7 @@
 # 🌙 Theme Switch — Six Modes
 
 <p align="center">
-  <b>Six atmospheric theme modes for any React + Vite project.</b><br>
+  <b>为任意 React + Vite 项目提供六种氛围主题模式。</b><br>
   Night · Moonlight · Day · Sunny · Rainy · Snowy
 </p>
 
@@ -13,76 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="#english"><b>English</b></a> &nbsp;|&nbsp; <a href="#中文"><b>中文</b></a>
+  <a href="#中文"><b>中文</b></a> &nbsp;|&nbsp; <a href="#english"><b>English</b></a>
 </p>
-
----
-
-<a id="english"></a>
-
-## English
-
-### ✨ Preview
-
-| Mode | Key | Effect | Sound |
-|------|-----|--------|-------|
-| 🌑 **Night** | `N` | Deep dark (#080808) | — |
-| 🌙 **Moonlight** | `M` | Moon + 150 twinkling stars + craters | Crickets |
-| ☀️ **Day** | `D` | Warm cream (#f2efe9) | — |
-| 🍂 **Sunny** | `S` | Day + falling leaves video | Forest ambience |
-| 🌧️ **Rainy** | `R` | Grey-blue rain + fog | Rain + thunder + drips |
-| ❄️ **Snowy** | `W` | Winter white + 268 snowflakes | Wind + snow howl |
-
-**Live Demo:** [theme-switch.pages.dev](https://theme-switch.pages.dev/)
-
-### 🚀 Quick Start
-
-```bash
-git clone https://github.com/painsix96/theme-switch-six-modes.git
-cd theme-switch-six-modes
-npm install
-npm run dev
-# Press N M D S R W to switch modes!
-```
-
-### 🎨 How It Works
-
-**CSS Houdini `@property`** — Smooth Color Transitions  
-The browser interpolates between colors with **400ms ease transition** — no JS needed!
-
-**Canvas Atmospheric Effects**
-- **Moon**: 320px supersampled → 56px display. 6 render layers (base gradient, maria, craters, terminator shadow, earthshine, limb darkening)
-- **Stars**: 150 multi-color-temp stars with flicker + flash animations
-- **Rain**: 180 drops in 3 depth layers + splash particles + fog layer
-- **Snow**: 268 hexagonal flakes with nonlinear gust wind system + motion trails
-- **Leaves**: MP4 video overlay with multiply blend mode
-
-**Web Audio API** — Procedural Soundscapes  
-All sounds synthesized in real-time (except forest.mp3):
-- **Moonlight**: Bandpass-filtered noise → cricket chirps (4000Hz, Q=15)
-- **Sunny**: Forest ambience audio playback
-- **Rainy**: 3-layer pink noise + scheduled thunder events + drip splashes
-- **Snowy**: 4-layer wind noise + 3 LFO sine modulators
-
-### 🔧 Add to Your Project
-
-Copy `src/` files into your React+Vite project, wrap your App in `<ThemeProvider>`, and use `var(--bg)` / `var(--text)` CSS variables.
-
-See full docs in the source code comments.
-
-### ⌨️ Shortcuts
-
-| `N` Night | `M` Moonlight | `D` Day | `S` Sunny | `R` Rainy | `W` Snowy |
-
-### 🌐 Browser Support
-
-✅ Chrome 85+, Edge 85+, Firefox 90+, Safari 16+
-
----
-
-📝 MIT License — Free for personal and commercial use.
-
-<p align="right"><a href="#">↑ Back to Top</a></p>
 
 ---
 
@@ -151,3 +83,71 @@ npm run dev
 📝 MIT 许可证 — 个人和商业用途均可免费使用。
 
 <p align="right"><a href="#">↑ 回到顶部</a></p>
+
+---
+
+<a id="english"></a>
+
+## English
+
+### ✨ Preview
+
+| Mode | Key | Effect | Sound |
+|------|-----|--------|-------|
+| 🌑 **Night** | `N` | Deep dark (#080808) | — |
+| 🌙 **Moonlight** | `M` | Moon + 150 twinkling stars + craters | Crickets |
+| ☀️ **Day** | `D` | Warm cream (#f2efe9) | — |
+| 🍂 **Sunny** | `S` | Day + falling leaves video | Forest ambience |
+| 🌧️ **Rainy** | `R` | Grey-blue rain + fog | Rain + thunder + drips |
+| ❄️ **Snowy** | `W` | Winter white + 268 snowflakes | Wind + snow howl |
+
+**Live Demo:** [theme-switch.pages.dev](https://theme-switch.pages.dev/)
+
+### 🚀 Quick Start
+
+```bash
+git clone https://github.com/painsix96/theme-switch-six-modes.git
+cd theme-switch-six-modes
+npm install
+npm run dev
+# Press N M D S R W to switch modes!
+```
+
+### 🎨 How It Works
+
+**CSS Houdini `@property`** — Smooth Color Transitions  
+The browser interpolates between colors with **400ms ease transition** — no JS needed!
+
+**Canvas Atmospheric Effects**
+- **Moon**: 320px supersampled → 56px display. 6 render layers (base gradient, maria, craters, terminator shadow, earthshine, limb darkening)
+- **Stars**: 150 multi-color-temp stars with flicker + flash animations
+- **Rain**: 180 drops in 3 depth layers + splash particles + fog layer
+- **Snow**: 268 hexagonal flakes with nonlinear gust wind system + motion trails
+- **Leaves**: MP4 video overlay with multiply blend mode
+
+**Web Audio API** — Procedural Soundscapes  
+All sounds synthesized in real-time (except forest.mp3):
+- **Moonlight**: Bandpass-filtered noise → cricket chirps (4000Hz, Q=15)
+- **Sunny**: Forest ambience audio playback
+- **Rainy**: 3-layer pink noise + scheduled thunder events + drip splashes
+- **Snowy**: 4-layer wind noise + 3 LFO sine modulators
+
+### 🔧 Add to Your Project
+
+Copy `src/` files into your React+Vite project, wrap your App in `<ThemeProvider>`, and use `var(--bg)` / `var(--text)` CSS variables.
+
+See full docs in the source code comments.
+
+### ⌨️ Shortcuts
+
+| `N` Night | `M` Moonlight | `D` Day | `S` Sunny | `R` Rainy | `W` Snowy |
+
+### 🌐 Browser Support
+
+✅ Chrome 85+, Edge 85+, Firefox 90+, Safari 16+
+
+---
+
+📝 MIT License — Free for personal and commercial use.
+
+<p align="right"><a href="#">↑ Back to Top</a></p>
