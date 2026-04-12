@@ -1,27 +1,26 @@
 # 🌙 Theme Switch — Six Modes
 
 <p align="center">
-  <a href="#🇨🇳-中文版"><img src="https://img.shields.io/badge/🇨🇳_中文-中文版-red?style=for-the-badge" alt="中文"></a> &nbsp;&nbsp;
-  <a href="#🇺🇸-english"><img src="https://img.shields.io/badge/🇺🇸_English-English-blue?style=for-the-badge" alt="English"></a>
-</p>
-
-<p align="center">
   <b>Six atmospheric theme modes for any React + Vite project.</b><br>
   Night · Moonlight · Day · Sunny · Rainy · Snowy
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/modes-6-blue" /> 
-  <img src="https://img.shields.io/badge/React-18+-61DAFB" /> 
-  <img src="https://img.shields.io/badge/Vite-5+-646CFF" /> 
+  <img src="https://img.shields.io/badge/modes-6-blue" />
+  <img src="https://img.shields.io/badge/React-18+-61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-5+-646CFF" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
+</p>
+
+<p align="center">
+  <a href="#english"><b>English</b></a> &nbsp;|&nbsp; <a href="#中文"><b>中文</b></a>
 </p>
 
 ---
 
-<a id="🇺🇸-english"></a>
+<a id="english"></a>
 
-## 🇺🇸 English
+## English
 
 ### ✨ Preview
 
@@ -83,13 +82,13 @@ See full docs in the source code comments.
 
 📝 MIT License — Free for personal and commercial use.
 
-<p align="right"><a href="#🌙-theme-switch--six-modes">↑ Back to Top</a></p>
+<p align="right"><a href="#">↑ Back to Top</a></p>
 
 ---
 
-<a id="🇨🇳-中文版"></a>
+<a id="中文"></a>
 
-## 🇨🇳 中文版
+## 中文
 
 ### ✨ 预览
 
@@ -151,4 +150,4 @@ npm run dev
 
 📝 MIT 许可证 — 个人和商业用途均可免费使用。
 
-<p align="right"><a href="#🌙-theme-switch--six-modes">↑ 回到顶部</a></p>
+<p align="right"><a href="#">↑ 回到顶部</a></p>
