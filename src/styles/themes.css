@@ -1,0 +1,17 @@
+@property --bg { syntax: '<color>'; inherits: true; initial-value: #080808; }
+@property --text { syntax: '<color>'; inherits: true; initial-value: #b4b4b4; }
+@property --mid { syntax: '<color>'; inherits: true; initial-value: #404040; }
+@property --line { syntax: '<color>'; inherits: true; initial-value: #181818; }
+@property --accent { syntax: '<color>'; inherits: true; initial-value: #6b6b6b; }
+
+:root {
+  --bg: #080808; --text: #b4b4b4; --mid: #404040; --line: #181818; --accent: #6b6b6b;
+  transition: --bg 400ms ease, --text 400ms ease, --mid 400ms ease, --line 400ms ease, --accent 400ms ease;
+}
+
+body.mode-night { --bg:#080808;--text:#b4b4b4;--mid:#404040;--line:#181818;--accent:#6b6b6b; }
+body.mode-midnight { --bg:#080808;--text:#b4b4b4;--mid:#404040;--line:#181818;--accent:#7a8fa6; }
+body.mode-day { --bg:#f2efe9;--text:#1a1a1a;--mid:#888888;--line:#d8d5cf;--accent:#8b7355; }
+body.mode-sunny { --bg:#f2efe9;--text:#1a1a1a;--mid:#888888;--line:#d8d5cf;--accent:#8b7355; }
+body.mode-rain { --bg:#4a535e;--text:#d8dce0;--mid:#8a929a;--line:#5c656e;--accent:#a0aab4; }
+body.mode-snow { --bg:#d4dde7;--text:#1d2936;--mid:#5f7083;--line:#b5c1cf;--accent:#2f4154; }
